@@ -17,8 +17,8 @@ export class LedgerProgramRunner {
     this.file = process.env.LEDGER_TRANSACTIONS_FILE_PATH;
   }
 
-  async run(params: string[]): Promise<any> {
-    const args = ["ts-node", this.script, this.file, ...params];
+  async run(command: string, params: string[]): Promise<any> {
+    const args = ["ts-node", this.script, command, this.file, ...params];
 
     const currentOS = process.platform;
 
