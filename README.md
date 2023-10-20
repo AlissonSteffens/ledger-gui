@@ -4,8 +4,8 @@ The project is written in Typescript and uses Next.js as a framework, with Shadc
 > This project is a work in progress, and is not ready for production.
 
 ## Warning
-This project only works with (my ledger-cli implementation)[https://github.com/AlissonSteffens/ledger-gui], which is a work in progress.
-If you want to understand how my ledger-cli works, you can check the (documentation at the ledger-cli repository)[https://github.com/AlissonSteffens/ledger-gui].
+This project only works with [my ledger-cli implementation](https://github.com/AlissonSteffens/ledger-gui), which is a work in progress.
+If you want to understand how my ledger-cli works, you can check the [documentation at the ledger-cli repository](https://github.com/AlissonSteffens/ledger-gui).
 
 
 ## How to use
